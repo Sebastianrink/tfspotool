@@ -7,8 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 @Path("test")
-public class TestResource implements GoalsApi
-{
+public class TestResource implements GoalsApi {
 
     @GET
     public String test() {
